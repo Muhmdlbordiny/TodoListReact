@@ -1,0 +1,9 @@
+body{
+    background-color: black;
+    color: white;
+}
+.btn-custom:hover{
+    background-color:green;
+    color: white;
+    border: 1px solid gold;
+}
