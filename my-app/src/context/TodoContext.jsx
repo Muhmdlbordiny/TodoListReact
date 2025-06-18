@@ -3,7 +3,7 @@ import { createContext, useContext, useEffect, useState } from "react";
 const TodoContext = createContext();
 
 export const TodoProvider = ({ children }) => {
-  const apiUrl = "https://localhost:44385/api/todo";
+  const apiUrl = "https://todos.runasp.net/api/todo";
   const [todos, setTodos] = useState([]);
   const [filter, setFilter] = useState("");
 
